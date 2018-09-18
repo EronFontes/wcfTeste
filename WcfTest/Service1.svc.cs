@@ -17,7 +17,7 @@ namespace WcfTest
             return string.Format("You: {0}", value);
         }
 
-        public CompositeType GetDataUsingDataContrac t(CompositeType composite)
+        public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)
             {
