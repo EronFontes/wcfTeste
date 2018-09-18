@@ -14,7 +14,7 @@ namespace WcfTest
     {
         public string GetData(int value)
         {
-            return string.Format("You entered tttt: {0}", value);
+            return string.Format("You: {0}", value);
         }
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)
